@@ -38,7 +38,7 @@ public class BaseController {
   public void preDestroy() {
     log.info("going to sleep before destroy");
     try {
-      Thread.sleep(20000);
+      Thread.sleep(30000);
     } catch (InterruptedException e) {
       System.out.println("Got exception in preDestroy");
     }

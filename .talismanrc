@@ -1,5 +1,5 @@
 fileignoreconfig:
 - filename: Dockerfile
-  checksum: a48c30b14b95f962b88b91803e86a715681a601d617574b104f86974471934b7
+  checksum: c4d2bf862c8f836d51aa01470d1ea791fe929a9af16ec6323ce454c13753138b
   ignore_detectors: []
 scopeconfig: []
