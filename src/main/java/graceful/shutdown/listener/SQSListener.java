@@ -1,4 +1,4 @@
-package graceful.shutdown.controller;
+package graceful.shutdown.listener;
 
 import com.amazonaws.services.sqs.AmazonSQSAsync;
 import com.amazonaws.services.sqs.AmazonSQSAsyncClientBuilder;
