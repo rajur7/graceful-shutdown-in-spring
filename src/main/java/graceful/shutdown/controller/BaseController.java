@@ -1,6 +1,5 @@
 package graceful.shutdown.controller;
 
-import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -36,12 +35,6 @@ public class BaseController {
 
 //  @PreDestroy
   public void preDestroy() {
-    log.info("going to sleep before destroy");
-    try {
-      Thread.sleep(30000);
-    } catch (InterruptedException e) {
-      System.out.println("Got exception in preDestroy");
-    }
-    log.info("shutting down after preDestroy executed");
+    log.info("Executing pre destroy method");
   }
 }
